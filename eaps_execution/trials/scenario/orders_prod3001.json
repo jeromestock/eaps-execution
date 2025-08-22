@@ -1,0 +1,49 @@
+{
+    "orders": [
+        {
+            "product": 2024261,
+            "quantity": 2
+        },
+        {
+            "product": 2024297,
+            "quantity": 1
+        },
+        {
+            "product": 2024243,
+            "quantity": 3
+        },
+        {
+            "product": 2024242,
+            "quantity": 2
+        },
+        {
+            "product": 20242310,
+            "quantity": 4
+        },
+        {
+            "product": 20242313,
+            "quantity": 6
+        },
+        {
+            "product": 20242312,
+            "quantity": 2
+        },
+        {
+            "product": 2024155,
+            "quantity": 4
+        },
+        {
+            "product": 20241042,
+            "quantity": 2
+        },
+        {
+            "product": 2024234,
+            "quantity": 2
+        },
+        {
+            "product": 20242411,
+            "quantity": 4
+        }
+    ],
+    "storeditems": []
+}

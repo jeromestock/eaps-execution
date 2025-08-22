@@ -1,0 +1,222 @@
+[
+    {
+        "name": "B1",
+        "id": 2024261,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 973,
+                "sort": 11,
+                "machine": 973,
+                "duration": 2650,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "B2",
+        "id": 2024297,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 973,
+                "sort": 11,
+                "machine": 973,
+                "duration": 4208,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "B3",
+        "id": 2024243,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 973,
+                "sort": 11,
+                "machine": 973,
+                "duration": 3310,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "B4",
+        "id": 2024242,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 973,
+                "sort": 11,
+                "machine": 973,
+                "duration": 2305,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "B5",
+        "id": 20242310,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 972,
+                "sort": 11,
+                "machine": 972,
+                "duration": 3333,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "B6",
+        "id": 20242313,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 972,
+                "sort": 11,
+                "machine": 972,
+                "duration": 2981,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "B7",
+        "id": 20242312,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 972,
+                "sort": 11,
+                "machine": 972,
+                "duration": 3218,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "B8",
+        "id": 2024155,
+        "operations": [
+            {
+                "id": 974,
+                "sort": 11,
+                "machine": 974,
+                "duration": 5051,
+                "setup": 960
+            },
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 3600
+            }
+        ]
+    },
+    {
+        "name": "B9",
+        "id": 20241042,
+        "operations": [
+            {
+                "id": 974,
+                "sort": 11,
+                "machine": 974,
+                "duration": 3181,
+                "setup": 960
+            },
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 3600
+            }
+        ]
+    },
+    {
+        "name": "B10",
+        "id": 2024234,
+        "operations": [
+            {
+                "id": 974,
+                "sort": 11,
+                "machine": 974,
+                "duration": 2473,
+                "setup": 960
+            },
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 3600
+            }
+        ]
+    },
+    {
+        "name": "B11",
+        "id": 20242411,
+        "operations": [
+            {
+                "id": 974,
+                "sort": 11,
+                "machine": 974,
+                "duration": 5136,
+                "setup": 960
+            },
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 3600
+            }
+        ]
+    }
+]

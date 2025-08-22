@@ -1,0 +1,107 @@
+[tool.poetry]
+name = "epas-execution"
+version = "0.1.1"
+description = "Production scheduling using the eta_utility.eta_x Framework and the julia language"
+authors = ["Technical University of Darmstadt, Institute for Production Management, Technology and Machine Tools (PTW) <info@ptw.tu-darmstadt.de>"]
+readme = "README.rst"
+license = "BSD-2-Clause License"
+keywords = ["industrial communication", "job-shop scheduling problem", "demand response measures"]
+
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Manufacturing",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+]
+
+packages = [{ include = "eaps_execution" }]
+
+homepage = "https://www.ptw.tu-darmstadt.de"
+documentation = "https://eta-utility.readthedocs.io/"
+repository = "https://github.com/PTW-TUDa/eta_utility/"
+
+
+[tool.poetry.dependencies]
+python = ">=3.10.16,<3.12"
+eta-utility = {extras = ["eta_x"], version = "~3.2"}
+pyomo = "~6.6.2"
+matplotlib = "~3.7.0"
+pandas = "^2.0.0"
+apscheduler = "4.0.0a5"
+black = "^25.1.0"
+eta-nexus = "^0.1.1"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.5.0"
+ipykernel = "^6.30.1"
+
+[tool.poetry.group.ruff.dependencies]
+ruff = "^0.4.10"
+
+[tool.poetry.group.pylint.dependencies]
+pylint = "^3.3.5"
+
+
+[tool.ruff]
+include = ["pyproject.toml", "eaps-execution/**/*.py"]  # TODO: change this
+line-length = 120
+indent-width = 4
+required-version = ">=0.11.2"
+target-version= "py310"
+output-format = "concise"
+fix = false
+
+[tool.ruff.lint]
+select = [
+    "F",       # Pyflakes
+    "E", "W",  # Pycodestyle, Error and Warning
+    "I",       # Isort
+    "N",       # Pep8-naming conventions
+    "UP",      # Pyupgrade
+    "PL",      # Pylint
+    "ERA",     # Eradicate
+    "PD",      # Pandas-vet
+    "NPY",     # NumPy-specific
+    "RUF",     # Ruff
+
+
+    # Flake8:
+    # asyncio, bugbear, builtins, commas, comprehensions, datetimez, eradicate, future-annotations, implicit-str-concat
+    # logging, logging-format, no-pep420, print, pyi, pytest-style, return, simplify, use-pathlib todo
+    "ASYNC", "B", "A", "COM", "C4", "DTZ", "ERA", "FA", "ISC",
+    "LOG", "G", "INP", "T20", "PYI", "PT", "RET", "SIM", "PTH", "TD"
+
+]
+
+ignore = [
+    "SIM105",
+    "PLR2004",  # Pylint: magic values
+    # Recommended to ignore as they conflict with the formatter
+    "W191", "E111", "E114", "E117", "D206", "D300", "COM812", "COM819", "ISC001"
+]
+
+[tool.ruff.lint.extend-per-file-ignores]
+"__init__.py" = ["PLC0414"]
+"examples/*" = ["T201"]
+"test/*" = ["RUF012"]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+force-wrap-aliases = true
+
+[tool.ruff.lint.pylint]
+max-args = 17
+max-branches = 20
+max-statements = 64
+max-returns = 9
+max-nested-blocks = 20
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"

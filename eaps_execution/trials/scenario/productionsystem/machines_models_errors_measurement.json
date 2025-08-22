@@ -1,0 +1,34 @@
+[
+    {
+        "GMB": {
+            "RMSE": 9703.241629999076,
+            "MAE": 5945.996624621008,
+            "NRMSE": 0.31764919381420226,
+            "TotalEnergyPercentageError_P_el": -0.01327340446670776
+        }
+    },
+    {
+        "GMD": {
+            "RMSE": 8129.78654851617,
+            "MAE": 5219.440385924529,
+            "NRMSE": 0.2638115970240436,
+            "TotalEnergyPercentageError_P_el": -0.05208405083680788
+        }
+    },
+    {
+        "PBC": {
+            "RMSE": 2619.4170886257625,
+            "MAE": 660.7554142250958,
+            "RMSE_standardize": 0.21636400119227928,
+            "TotalEnergyPercentageError_P_el": 0.006413625117750941
+        }
+    },
+    {
+        "GIC": {
+            "RMSE": 11617.436203602823,
+            "MAE": 6077.518323331392,
+            "RMSE_standardize": 0.30529403474216377,
+            "TotalEnergyPercentageError_P_el": -0.03243389687485784
+        }
+    }
+]

@@ -1,0 +1,33 @@
+{
+    "orders": [
+        {
+            "product": 2024241,
+            "quantity": 1
+        },
+        {
+            "product": 2024261,
+            "quantity": 1
+        },
+        {
+            "product": 2024237,
+            "quantity": 4
+        },
+        {
+            "product": 2024236,
+            "quantity": 4
+        },
+        {
+            "product": 20242315,
+            "quantity": 4
+        },
+        {
+            "product": 20242316,
+            "quantity": 2
+        },
+        {
+            "product": 2024246,
+            "quantity": 4
+        }
+    ],
+    "storeditems": []
+}

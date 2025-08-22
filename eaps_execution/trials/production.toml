@@ -1,0 +1,46 @@
+[setup]
+environment_import = "eta_utility.eta_x.envs.JuliaEnv"
+agent_import = "eta_utility.eta_x.agents.Nsga2"
+vectorizer_import = "eta_utility.eta_x.envs.NoVecEnv"
+tensorboard_log = true
+
+[settings]
+episode_duration = 86300
+sampling_time = 1
+n_episodes_learn = 100
+n_episodes_play = 1
+seed = 542346723
+verbose = 1
+save_model_every_x_episodes = 20
+log_to_file = true
+
+[paths]
+relpath_scenarios = "scenario/"
+relpath_results = "results/"
+
+[environment_specific]
+julia_env_file = "environments/FactoryEnv.jl"
+scenario_time_begin = "2024-01-30 00:00"
+scenario_time_end = "2024-01-30 23:59"
+machines_file = "productionsystem/machines.json"
+products_file = "productionsystem/products3001.json"
+orders_file = "orders_prod3001.json"
+export_schedule_file = "productionschedule/energy_aware_production_schedule.csv"
+wait_before_standby = 300
+price_conversion  = 0.0000000002777
+render_mode = "all"
+varsecondmap = [0, 30, 90, 180, 300, 600, 900, 1800, 3600]
+
+[[environment_specific.scenario_paths]]
+path = "../scenario/Strompreise_2024-01-30.csv"
+interpolation_method = "ffill"
+time_conversion_str = "mixed"
+
+
+[agent_specific]
+n_generations = 350
+population = 100
+mutations = 0.025
+crossovers = 0.4
+max_cross_len = 1
+max_retries = 1000000

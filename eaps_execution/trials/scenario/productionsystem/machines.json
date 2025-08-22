@@ -1,0 +1,61 @@
+[
+    {
+        "name": "GMB",
+        "unique_job": true,
+        "parameters": {
+            "beta_el": [
+                1502.138445629556,
+                8354.433955329656,
+                17579.674895454602,
+                48859.99801913663
+            ]
+        },
+        "resource_id": 973,
+        "type": "lasercutting",
+        "capacity": 1
+    },
+    {
+        "name": "GMD",
+        "unique_job": true,
+        "parameters": {
+            "beta_el": [
+                674.4670973887212,
+                4955.647876501238,
+                6759.6167943011005,
+                44880.86204185375
+            ]
+        },
+        "resource_id": 972,
+        "type": "lasercutting",
+        "capacity": 1
+    },
+    {
+        "name": "PBC",
+        "unique_job": false,
+        "parameters": {
+            "beta_el": [
+                685.4001495817747,
+                21767.349287250257,
+                76132.01321056265,
+                20798.536042997286
+            ]
+        },
+        "resource_id": 971,
+        "type": "sandblasting",
+        "capacity": 1
+    },
+    {
+        "name": "GIC",
+        "unique_job": true,
+        "parameters": {
+            "beta_el": [
+                392.9048544156246,
+                3236.1011746621903,
+                90767.85686543456
+            ]
+        },
+        "resource_id": 974,
+        "type": "flamecutting",
+        "capacity": 2
+    }
+]

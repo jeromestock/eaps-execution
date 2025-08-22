@@ -1,0 +1,49 @@
+default_language_version:
+  python: python3
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.11.2
+    hooks:
+      # Run the linter.
+      - id: ruff
+        args: ["--fix"]
+      # Run the formatter.
+      - id: ruff-format
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+    - id: codespell
+      additional_dependencies:
+      - tomli
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-added-large-files
+        args: [ "--maxkb=1024" ]
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+      - id: mixed-line-ending
+        args: ["--fix=auto"]
+      - id: end-of-file-fixer
+      - id: fix-byte-order-marker
+      - id: fix-encoding-pragma
+        args: ["--remove"]
+      - id: detect-private-key
+      - id: check-case-conflict
+      - id: check-toml
+      - id: check-yaml
+        args: ["--unsafe"]
+  # - repo: https://github.com/pre-commit/mirrors-mypy
+  #   rev: v1.9.0
+  #   hooks:
+  #     - id: mypy
+  #       args: [--config=pyproject.toml]
+  #       exclude: ^(docs/conf.py|test/) # copy from pyproject.toml
+  #       additional_dependencies:
+  #        - numpy==2.2.5
+
+  - repo: https://github.com/python-poetry/poetry
+    rev: 2.1.1
+    hooks:
+      -   id: poetry-check
+      -   id: poetry-lock

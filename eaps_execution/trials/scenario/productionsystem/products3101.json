@@ -1,0 +1,222 @@
+[
+    {
+        "name": "C1",
+        "id": 2024242,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 973,
+                "sort": 11,
+                "machine": 973,
+                "duration": 2305,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "C2",
+        "id": 20241812,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 973,
+                "sort": 11,
+                "machine": 973,
+                "duration": 3997,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "C3",
+        "id": 20242931,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 973,
+                "sort": 11,
+                "machine": 973,
+                "duration": 3310,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "C4",
+        "id": 2024304,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 973,
+                "sort": 11,
+                "machine": 973,
+                "duration": 4061,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "C5",
+        "id": 2024298,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 973,
+                "sort": 11,
+                "machine": 973,
+                "duration": 1715,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "C6",
+        "id": 20242312,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 972,
+                "sort": 11,
+                "machine": 972,
+                "duration": 3218,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "C7",
+        "id": 20242311,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 972,
+                "sort": 11,
+                "machine": 972,
+                "duration": 3824,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "C8",
+        "id": 20242314,
+        "operations": [
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 0
+            },
+            {
+                "id": 972,
+                "sort": 11,
+                "machine": 972,
+                "duration": 3510,
+                "setup": 360
+            }
+        ]
+    },
+    {
+        "name": "C9",
+        "id": 20243010,
+        "operations": [
+            {
+                "id": 974,
+                "sort": 11,
+                "machine": 974,
+                "duration": 3185,
+                "setup": 960
+            },
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 3600
+            }
+        ]
+    },
+    {
+        "name": "C10",
+        "id": 20242317,
+        "operations": [
+            {
+                "id": 974,
+                "sort": 11,
+                "machine": 974,
+                "duration": 4492,
+                "setup": 960
+            },
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 3600
+            }
+        ]
+    },
+    {
+        "name": "C11",
+        "id": 20243015,
+        "operations": [
+            {
+                "id": 974,
+                "sort": 11,
+                "machine": 974,
+                "duration": 5486,
+                "setup": 960
+            },
+            {
+                "id": 971,
+                "sort": 10,
+                "machine": 971,
+                "duration": 279,
+                "setup": 3600
+            }
+        ]
+    }
+]

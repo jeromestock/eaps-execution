@@ -1,0 +1,129 @@
+[[system]]
+name = "EAPS"
+
+[system.servers.GMD]
+url = "opc.tcp://localhost:4840"
+protocol = "opcua"
+usr = "admin"
+pwd = "admin"
+
+[system.servers.PBC]
+url = "opc.tcp://localhost:4842"
+protocol = "opcua"
+usr = "admin"
+pwd = "admin"
+
+[system.servers.GMB]
+url = "opc.tcp://localhost:4844"
+protocol = "opcua"
+usr = "admin"
+pwd = "admin"
+
+[system.servers.GIC]
+url = "opc.tcp://localhost:4846"
+protocol = "opcua"
+usr = "admin"
+pwd = "admin"
+
+[[system.nodes]]
+name = "bGMDWorkingState"
+server = "GMD"
+opc_id = "ns=2;s=Application.Plc_Main.GMD.localState.bGMDWorkingState"
+dtype = "bool"
+
+[[system.nodes]]
+name = "bGMDErrorState"
+server = "GMD"
+opc_id = "ns=2;s=Application.Plc_Main.GMD.localState.bGMDErrorState"
+dtype = "bool"
+
+[[system.nodes]]
+name = "sGMDJob"
+server = "GMD"
+opc_id = "ns=2;s=Application.Plc_Main.GMD.localState.sGMDJob"
+dtype = "string"
+
+[[system.nodes]]
+name = "bPBCWorkingState"
+server = "PBC"
+opc_id = "ns=2;s=Application.Plc_Main.PBC.localState.bPBCWorkingState"
+dtype = "bool"
+
+[[system.nodes]]
+name = "bPBCErrorState"
+server = "PBC"
+opc_id = "ns=2;s=Application.Plc_Main.PBC.localState.bPBCErrorState"
+dtype = "bool"
+
+[[system.nodes]]
+name = "sPBCJob"
+server = "PBC"
+opc_id = "ns=2;s=Application.Plc_Main.PBC.localState.sPBCJob"
+dtype = "string"
+
+[[system.nodes]]
+name = "bGMBWorkingState"
+server = "GMB"
+opc_id = "ns=2;s=Application.Plc_Main.GMB.localState.bGMBWorkingState"
+dtype = "bool"
+
+[[system.nodes]]
+name = "bGMBErrorState"
+server = "GMB"
+opc_id = "ns=2;s=Application.Plc_Main.GMB.localState.bGMBErrorState"
+dtype = "bool"
+
+[[system.nodes]]
+name = "sGMBJob"
+server = "GMB"
+opc_id = "ns=2;s=Application.Plc_Main.GMB.localState.sGMBJob"
+dtype = "string"
+
+[[system.nodes]]
+name = "bGICWorkingState"
+server = "GIC"
+opc_id = "ns=2;s=Application.Plc_Main.GIC.localState.bGICWorkingState"
+dtype = "bool"
+
+[[system.nodes]]
+name = "bGICErrorState"
+server = "GIC"
+opc_id = "ns=2;s=Application.Plc_Main.GIC.localState.bGICErrorState"
+dtype = "bool"
+
+[[system.nodes]]
+name = "sGICJob"
+server = "GIC"
+opc_id = "ns=2;s=Application.Plc_Main.GIC.localState.sGICJob"
+dtype = "string"
+
+# Observe ist leer
+system.observe = []
+
+[system.actions.init]
+bGMDErrorState = false
+bGMDWorkingState = false
+sGMDJob = "XXX"
+bPBCErrorState = false
+bPBCWorkingState = false
+sPBCJob = "XXX"
+bGMBErrorState = false
+bGMBWorkingState = false
+sGMBJob = "XXX"
+bGICErrorState = false
+bGICWorkingState = false
+sGICJob = "XXX"
+
+[system.actions.close]
+bGMDErrorState = false
+bGMDWorkingState = false
+sGMDJob = "XXX"
+bPBCErrorState = false
+bPBCWorkingState = false
+sPBCJob = "XXX"
+bGMBErrorState = false
+bGMBWorkingState = false
+sGMBJob = "XXX"
+bGICErrorState = false
+bGICWorkingState = false
+sGICJob = "XXX"
