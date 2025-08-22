@@ -13,7 +13,7 @@ automated, energy-flexible, and sustainable manufacturing.
 **Keywords:** Industrial communication, Job-Shop Scheduling Problem, Demand Response Measures
 
 
-**See also: Published version on** `Github <https://github.com/PTW-TUDa/Simplified-Implementation-of-Energy-Aware-Production-Scheduling-in-Job-Shops/>`_ of the original EAPS architecture.
+**See also: Published version on** `Github <https://github.com/PTW-TUDa/Simplified-Implementation-of-Energy-Aware-Production-Scheduling-in-Job-Shops/>`_ **of the original EAPS architecture.**
 
 
 Installation
